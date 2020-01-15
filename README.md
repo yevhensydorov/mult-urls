@@ -95,6 +95,6 @@ I was using Jest for creating couple of tests. There are tests for fetch, respon
 
 There is error handling in the library. If response status of url is NOT OK, it will do `Promise.reject` and show message in the format:
 `js'There was a problem with request, Error: {"status":403,"error":"Forbidden","url":"https://httpstat.us/403"}'`
-I’ve chosen to return error object in the stringify json format with next properties: `status`, `statusText` and `request url`.
+I’ve chosen to return error object in the stringify json format which has next properties: `status`, `statusText` and `request url`.
 
 If response is OK, function returns object with next properties: `response text status`, `Promise with data in json format`, `response status code` and `request url`.

@@ -1,6 +1,7 @@
 jest.mock("node-fetch");
 const fetch = require("node-fetch");
 const { Response } = jest.requireActual("node-fetch");
+
 const requestMultipleUrls = require("./index");
 
 test("requestMultipleUrls calls fetch right times with args and have right amount of responses", async () => {

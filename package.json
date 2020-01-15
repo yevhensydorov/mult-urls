@@ -4,5 +4,10 @@
   "description": "Fetch multiple urls and return their content in a promise",
   "license": "MIT",
   "repository": "yevhensydorov/mult-urls",
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "fetch-mock": "^8.3.1",
+    "jest": "^24.9.0",
+    "node-fetch": "^2.6.0"
+  }
 }

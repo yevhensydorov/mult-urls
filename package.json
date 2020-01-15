@@ -1,0 +1,8 @@
+{
+  "name": "@yevhensydorov/mult-urls",
+  "version": "1.0.0",
+  "description": "Fetch multiple urls and return their content in a promise",
+  "license": "MIT",
+  "repository": "yevhensydorov/mult-urls",
+  "main": "index.js"
+}
